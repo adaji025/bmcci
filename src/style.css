@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #1D2130;
+}
+
+.home-banner {
+  background: url(./assets/png/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home-banner-2 {
+  background: url(./assets/png/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app-width {
+  @apply max-w-[1440px] mx-auto px-5 lg:px-12;
+}
+
+.causes-card {
+  background: url(./assets/png/riches.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.causes-card-1 {
+  background: url(./assets/png/dignity.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.causes-card-2 {
+  background: url(./assets/png/emp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.causes-card::before, .causes-card-1::before, .causes-card-2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  z-index: 2;
+  border-radius: 12px;
+}
