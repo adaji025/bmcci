@@ -1,6 +1,11 @@
 import Navbar from "../../components/Navbar";
 import SubsidiaryImage from "../../assets/png/wc.png";
 import BoardMembers from "./components/BoardMembers";
+import Partners from "../Home/components/Partners";
+import Footer from "../../components/Footer";
+import GirlsImage from "../../assets/png/girls.png";
+import Mission from "./components/Mission";
+import Causes from "./components/Causes";
 
 const About = () => {
   return (
@@ -11,7 +16,7 @@ const About = () => {
         data-aos="fade-up"
       >
         <div className="flex-1">
-          <div className="bg-[#92CD0033]/20 px-2 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
             Who WE ARE
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2>
@@ -42,7 +47,34 @@ const About = () => {
           <img src={SubsidiaryImage} alt="" className="rounded-xl" />
         </div>
       </div>
+
+      <div className="app-width">
+        <div className="mt-32 px-5 bg-primary min-h-[540px] w-full rounded-xl flex flex-col justify-center items-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
+            wHAT wE HAVE dONE
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[600px] mx-auto text-center">
+            Impact over the last 10 years
+          </h2>
+          <div className="mt-3 max-w-[800px] mx-auto text-center">
+            The organization has been contributing to the social and educational
+            development, counseling and mentoring of rural and urban communities
+            particularly in the Secondary schools and sanitary education,
+            Community mobilization especially mobilising girl-child education,
+            setting up financial literacy clubs for secondary schools, economic
+            and overall empowerment of the less-privileged, orphans and
+            vulnerable groups in the society.
+          </div>
+        </div>
+        <div className="hidden xl:block xl:-translate-y-[70px]">
+          <img src={GirlsImage} alt="" className="mx-auto" />
+        </div>
+      </div>
+      <Mission />
+      <Causes />
       <BoardMembers />
+      <Partners />
+      <Footer />
     </div>
   );
 };

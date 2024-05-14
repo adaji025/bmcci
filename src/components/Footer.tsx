@@ -6,7 +6,7 @@ import { LuPhone } from "react-icons/lu";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0D0D0D] mt-[240px] text-white" data-aos="fade-up">
+    <footer className="bg-[#0D0D0D] mt-[240px] text-white overflow-hidden" data-aos="fade-up">
       <div
         id="learn_more"
         className="home-banner-2 min-h-[400px] rounded-[20px] max-w-[1100px] mx-auto flex justify-center items-center text-center text-white mt-20 overflow-hidden -translate-y-[180px]"
