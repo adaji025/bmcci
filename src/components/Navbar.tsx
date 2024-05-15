@@ -21,7 +21,7 @@ const navMenuItems = [
   },
   {
     title: "Get Involved",
-    url: "#board",
+    url: "/get-involve",
   },
   {
     title: "Contact Us",
