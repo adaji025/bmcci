@@ -4,6 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import styles from "./Navbar.module.css";
 import { Button } from "@mantine/core";
 import Logo from "../assets/svg/logo.svg";
+import AboutDropdown from "./AboutDropdown";
 
 const navMenuItems = [
   {
@@ -65,11 +66,12 @@ const Navbar = () => {
                   : ""
               } `}
               onClick={() => {
-                navigate(menu.url);
-                setMenu(false);
+                menu.title !== "About us" && navigate(menu.url);
+                menu.title !== "About us" && setMenu(false);
               }}
             >
-              {menu.title}
+              {menu.title !== "About us" && menu.title}
+              {menu.title === "About us" && <AboutDropdown />}
             </div>
           ))}
         </div>
