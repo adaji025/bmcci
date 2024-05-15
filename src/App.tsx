@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import GetInvolve from "./pages/GetInvolve";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/get-involve" element={<GetInvolve />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
     </MantineProvider>
   );

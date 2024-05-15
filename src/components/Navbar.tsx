@@ -25,7 +25,7 @@ const navMenuItems = [
   },
   {
     title: "Contact Us",
-    url: "#learn_more",
+    url: "/contact-us",
   },
 ];
 
