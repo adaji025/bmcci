@@ -50,7 +50,11 @@ const Causes = () => {
               </div>
             </div>
             <div>
-              <Button color="white" className="text-black mt-6">
+              <Button
+                color="white"
+                className="text-black mt-6"
+                onClick={() => navigate(`/causes/1`)}
+              >
                 Learn more
               </Button>
             </div>
@@ -66,7 +70,11 @@ const Causes = () => {
               </div>
             </div>
             <div>
-              <Button color="white" className="text-black mt-6">
+              <Button
+                color="white"
+                className="text-black mt-6"
+                onClick={() => navigate(`/causes/1`)}
+              >
                 Learn more
               </Button>
             </div>
@@ -85,7 +93,11 @@ const Causes = () => {
               </div>
             </div>
             <div>
-              <Button color="white" className="text-black mt-6">
+              <Button
+                color="white"
+                className="text-black mt-6"
+                onClick={() => navigate(`/causes/1`)}
+              >
                 Learn more
               </Button>
             </div>
