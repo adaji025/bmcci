@@ -25,6 +25,12 @@ body {
   z-index: 2;
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .home-banner::before {
+    height: 70%;
+  }
+}
 .home-banner-2 {
   background: url(./assets/png/banner.png);
   background-repeat: no-repeat;

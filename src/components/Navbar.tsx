@@ -60,9 +60,9 @@ const Navbar = () => {
           {navMenuItems.map((menu, idx) => (
             <div
               key={idx}
-              className={`flex gap-2 items-center relative font-semibold border-b-4 border-transparent text-base md:text-lg cursor-pointer hover:border-pink hover:lg:text-primary-green-50 hover:lg:border-primary-green-50   transition- duration-200 ${
+              className={`flex gap-2 items-center relative font-semibold border-b border-transparent text-base md:text-lg cursor-pointer hover:border-pink hover:lg:text-primary-green-50 hover:lg:border-primary-green-50   transition- duration-200 ${
                 router.pathname === menu.url
-                  ? "lg:border-pink lg:text-primary-green-50"
+                  ? "lg:border-primary lg:text-primary-green-50"
                   : ""
               } `}
               onClick={() => {
@@ -74,6 +74,12 @@ const Navbar = () => {
               {menu.title === "About us" && <AboutDropdown />}
             </div>
           ))}
+          <div
+            className="lg:hidden text-start font-semibold pb-4 cursor-pointer"
+            onClick={() => navigate("/donate")}
+          >
+            Donate
+          </div>
         </div>
         <Button
           size="md"
