@@ -7,10 +7,16 @@ import DocImage from "../../assets/svg/doc.svg";
 import CategoryImage from "../../assets/svg/Category.svg";
 import DiscoveryImage from "../../assets/svg/Discovery.svg";
 import Causes from "../Home/components/Causes";
+import { Helmet } from "react-helmet";
 
 const CausesDetails = () => {
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - Causes</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">

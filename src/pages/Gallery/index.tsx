@@ -6,6 +6,8 @@ import G4 from "../../assets/png/gallery/gallery4.png";
 import G5 from "../../assets/png/gallery/gallery5.png";
 import G6 from "../../assets/png/gallery/gallery6.png";
 import Footer from "../../components/Footer";
+import { Fragment } from "react/jsx-runtime";
+import { Helmet } from "react-helmet";
 
 type IProps = {
   item: {
@@ -57,7 +59,12 @@ const Gallery = () => {
     },
   ];
   return (
-    <div>
+    <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - Gallery</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
@@ -75,7 +82,7 @@ const Gallery = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

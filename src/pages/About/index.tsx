@@ -6,10 +6,17 @@ import Footer from "../../components/Footer";
 import GirlsImage from "../../assets/png/girls.png";
 import Mission from "./components/Mission";
 import Causes from "./components/Causes";
+import { Fragment } from "react/jsx-runtime";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
-    <div>
+    <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - About</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div
         className="app-width flex flex-col md:flex-row justify-between items-center gap-20 mt-32"
@@ -75,7 +82,7 @@ const About = () => {
       <BoardMembers />
       <Partners />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

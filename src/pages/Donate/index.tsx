@@ -4,10 +4,16 @@ import { Button, CopyButton } from "@mantine/core";
 import { IoCopyOutline } from "react-icons/io5";
 import DonateForm from "./DonateForm";
 import Footer from "../../components/Footer";
+import { Helmet } from "react-helmet";
 
 const Donate = () => {
   return (
     <Fragment>
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - Donate</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center">
         <div className="app-width z-10 mt-[60px]">
@@ -46,7 +52,7 @@ const Donate = () => {
             <CopyButton value="1223718233">
               {({ copied, copy }) => (
                 <button color={copied ? "teal" : "blue"} onClick={copy}>
-                  {copied ? "1223718233" : <IoCopyOutline />}
+                  {copied ? `copied 1223718233` : <IoCopyOutline />}
                 </button>
               )}
             </CopyButton>

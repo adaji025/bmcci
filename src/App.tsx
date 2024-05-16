@@ -10,13 +10,14 @@ import GetInvolve from "./pages/GetInvolve";
 import Contact from "./pages/Contact";
 import CausesDetails from "./pages/Causes";
 import Donate from "./pages/Donate";
+import WCA from "./pages/WCA";
 
 export default function App() {
   return (
     <MantineProvider theme={theme}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>SI Group</title>
+        <title>BMCCI</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Routes>
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/causes/:id" element={<CausesDetails />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/wca" element={<WCA />} />
       </Routes>
     </MantineProvider>
   );

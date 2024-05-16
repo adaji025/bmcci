@@ -17,7 +17,7 @@ const navMenuItems = [
   },
   {
     title: "WCA",
-    url: "#subsidiaries",
+    url: "/wca",
   },
   {
     title: "Get Involved",

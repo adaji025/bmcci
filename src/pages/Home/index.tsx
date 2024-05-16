@@ -12,6 +12,7 @@ import YoutubeEmbed from "./components/Youtube";
 import Testimonial from "./components/Testimonial";
 import Gallery from "./components/Gallery";
 import Partners from "./components/Partners";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +21,11 @@ const Home = () => {
 
   return (
     <Fragment>
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - Home</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center">
         <div className="app-width z-10 mt-[60px]">

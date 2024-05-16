@@ -4,10 +4,17 @@ import Footer from "../../components/Footer";
 import UserIcon from "../../assets/svg/user.svg";
 import FirstAidIcon from "../../assets/svg/f-aid.svg";
 import DonateForm from "../Donate/DonateForm";
+import { Fragment } from "react/jsx-runtime";
+import { Helmet } from "react-helmet";
 
 const GetInvolve = () => {
   return (
-    <div>
+    <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - get involve</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center">
         <div className="app-width z-10 mt-[60px]">
@@ -74,7 +81,7 @@ const GetInvolve = () => {
 
       <DonateForm />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

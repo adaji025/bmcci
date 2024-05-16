@@ -4,10 +4,16 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { Button, TextInput, Textarea } from "@mantine/core";
 import Footer from "../../components/Footer";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <Fragment>
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>BMCCI - Contact us</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Navbar />
       <div className="mt-44 app-width flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div className="flex-1">
