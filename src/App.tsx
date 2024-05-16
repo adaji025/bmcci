@@ -9,6 +9,7 @@ import Gallery from "./pages/Gallery";
 import GetInvolve from "./pages/GetInvolve";
 import Contact from "./pages/Contact";
 import CausesDetails from "./pages/Causes";
+import Donate from "./pages/Donate";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/get-involve" element={<GetInvolve />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/causes/:id" element={<CausesDetails />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
     </MantineProvider>
   );

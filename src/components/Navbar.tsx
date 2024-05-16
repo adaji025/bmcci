@@ -78,6 +78,7 @@ const Navbar = () => {
         <Button
           size="md"
           className="bg-primary hover:bg-primary/80 hidden lg:block"
+          onClick={() => navigate("/donate")}
         >
           Donate
         </Button>
