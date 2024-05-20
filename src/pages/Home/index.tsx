@@ -13,15 +13,21 @@ import Testimonial from "./components/Testimonial";
 import Gallery from "./components/Gallery";
 import Partners from "./components/Partners";
 import { Helmet } from "react-helmet";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const location = useLocation();
   useEffect(() => {
     AOS.init();
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <Fragment>
-       <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>BMCCI - Home</title>
         <link rel="canonical" href="http://mysite.com/example" />

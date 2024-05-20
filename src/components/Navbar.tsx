@@ -36,6 +36,7 @@ const Navbar = () => {
 
   return (
     <div className="z-[999] bg-white text-black  w-full fixed top-0 shadow">
+
       <nav
         className={`px-5 lg:px-12 max-w-[1440px] flex justify-between ${styles.navbarItems}`}
       >
@@ -89,6 +90,7 @@ const Navbar = () => {
           Donate
         </Button>
       </nav>
+
     </div>
   );
 };

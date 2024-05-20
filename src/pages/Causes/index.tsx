@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import GirlsImage from "../../assets/png/girls.png";
@@ -10,6 +10,9 @@ import Causes from "../Home/components/Causes";
 import { Helmet } from "react-helmet";
 
 const CausesDetails = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <Helmet>

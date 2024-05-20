@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import SubsidiaryImage from "../../assets/png/wc.png";
 import GirlsImage from "../../assets/png/girls.png";
@@ -8,6 +8,9 @@ import Gallery from "./components/Gallery";
 import { Helmet } from "react-helmet";
 
 const WCA = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <Helmet>

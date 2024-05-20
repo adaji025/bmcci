@@ -6,8 +6,12 @@ import FirstAidIcon from "../../assets/svg/f-aid.svg";
 import DonateForm from "../Donate/DonateForm";
 import { Fragment } from "react/jsx-runtime";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 const GetInvolve = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <Helmet>

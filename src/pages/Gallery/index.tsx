@@ -8,6 +8,7 @@ import G6 from "../../assets/png/gallery/gallery6.png";
 import Footer from "../../components/Footer";
 import { Fragment } from "react/jsx-runtime";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 type IProps = {
   item: {
@@ -58,6 +59,10 @@ const Gallery = () => {
       image: G6,
     },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <Helmet>

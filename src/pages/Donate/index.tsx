@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import { Button, CopyButton } from "@mantine/core";
 import { IoCopyOutline } from "react-icons/io5";
@@ -7,6 +7,9 @@ import Footer from "../../components/Footer";
 import { Helmet } from "react-helmet";
 
 const Donate = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
        <Helmet>

@@ -8,8 +8,14 @@ import Mission from "./components/Mission";
 import Causes from "./components/Causes";
 import { Fragment } from "react/jsx-runtime";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const About = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <Fragment>
       <Helmet>

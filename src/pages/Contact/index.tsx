@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -7,9 +7,12 @@ import Footer from "../../components/Footer";
 import { Helmet } from "react-helmet";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
-       <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>BMCCI - Contact us</title>
         <link rel="canonical" href="http://mysite.com/example" />
