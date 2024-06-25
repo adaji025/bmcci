@@ -1,5 +1,5 @@
 import { Button } from "@mantine/core";
-import SubsidiaryImage from "../../../assets/png/wc.png";
+import AboutImage from "../../../assets/png/home-1.jpg";
 import { useEffect } from "react";
 import Aos from "aos";
 import { useNavigate } from "react-router-dom";
@@ -42,7 +42,7 @@ const About = () => {
         </Button>
       </div>
       <div className="flex-1">
-        <img src={SubsidiaryImage} alt="" />
+        <img src={AboutImage} alt="" />
       </div>
     </div>
   );

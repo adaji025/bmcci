@@ -19,7 +19,7 @@ const Causes = () => {
           </div>
           <div className="max-w-[600px]">
             <h2 className="font-semibold text-[32px] lg:text-[48px] leading-none">
-              Raise your funds for a cause you care
+              Join us in making a difference, one donation at a time
             </h2>
           </div>
         </div>
@@ -39,15 +39,22 @@ const Causes = () => {
       </div>
 
       <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div className="w-full causes-card min-h-[424px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
-          <div className="z-10 flex h-2/3 flex-col justify-between">
+        <div className="w-full causes-card min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+          <div className="z-10 flex flex-col justify-between">
             <div>
               <h3 className="font-bold text-[28px]">
                 Rags To Riches (R2R) 2021 Graduation
               </h3>
               <div className="mt-3">
-                Recently completed the second Rags to Riches (R2R) club day and
-                graduation ceremony at the school without walls.
+                This serves as a platform for members to develop essential life
+                skills and make informed choices for their futures. The R2R club
+                focuses on several key areas, including leadership skills,
+                entrepreneurship, morals, ethical values, and career paths.
+                Through educational sessions and interactive workshops, club
+                members are equipped with the knowledge and tools necessary to
+                become future leaders and entrepreneurs. They learn about
+                important values and ethical principles that guide their
+                decision-making processes and personal development.
               </div>
             </div>
             <div>
@@ -61,13 +68,18 @@ const Causes = () => {
             </div>
           </div>
         </div>
-        <div className="w-full causes-card-1 min-h-[424px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+        <div className="w-full causes-card-1 min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
           <div className="z-10 h-2/3 flex flex-col justify-between">
             <div>
-              <h3 className="font-bold text-[28px]">Women Empowerment</h3>
+              <h3 className="font-bold text-[28px]">Education</h3>
               <div className="mt-3">
-                Advocacy on the importance of education and how it relates to
-                Islamic education
+                One of the main focuses of BMCCI is on education. The initiative
+                aims to improve access to quality education for young minds from
+                a very early age. This includes providing education and training
+                programs, scholarships, and mentorship opportunities. By
+                investing in the education of these individuals, BMCCI believes
+                that they can break the cycle of poverty and contribute to the
+                overall development of their communities.
               </div>
             </div>
             <div>
@@ -77,16 +89,17 @@ const Causes = () => {
             </div>
           </div>
         </div>
-        <div className="w-full causes-card-2 min-h-[424px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+        <div className="w-full causes-card-2 min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
           <div className="z-10 h-2/3 flex flex-col justify-between">
             <div>
               <h3 className="font-bold text-[28px]">
-                Digitify Northern Nigeria
+                Financial Literacy campaigns
               </h3>
               <div className="mt-3">
-                Free digital marketing skills training for Youths in Northern
-                Nigeria, in line with the country’s vision to equip its youths
-                with digital skills 
+                FFinancial Literacy campaigns and zero interest loan for small
+                businesswomen and traders serves as a platform to Drive positive
+                change for women while Creating a sustainable future for
+                families through empowerment and livelihood enhancement.
               </div>
             </div>
             <div>
@@ -98,7 +111,7 @@ const Causes = () => {
         </div>
       </div>
 
-      <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      {/* <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="w-full causes-card min-h-[424px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
           <div className="z-10 flex h-2/3 flex-col justify-between">
             <div>
@@ -166,7 +179,7 @@ const Causes = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

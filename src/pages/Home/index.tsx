@@ -39,13 +39,15 @@ const Home = () => {
             className="max-w-[1000px] px-5 lg:px-12 mx-auto text-white z-10"
             data-aos="zoom-in"
           >
-            <h2 className="font-bold text-[32px] md:text-[44px] lg:text-[64px] text-center">
-              <span className="text-primary">Women</span> the Epicenter of our
-              society
+            <h2 className="font-bold text-[24px] md:text-[32px] lg:text-[44px] text-center">
+              Providing Support and
+              <span className="text-primary"> Guidance </span>
+              to Individuals and Communities
             </h2>
-            <div className="mt-1 font-medium max-w-[500px] mx-auto text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
+            <div className="mt-2 max-w-[500px] mx-auto text-center">
+              The initiative recognises the challenges faced by these
+              communities such as poverty and lack of educational opportunities,
+              and aims to address these issues through a multi-faceted approach.
             </div>
             <div className="flex justify-center mt-5">
               <Button color="white" size="md" className="text-black">

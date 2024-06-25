@@ -1,7 +1,7 @@
-import Gallery1 from "../../../assets/png/gallery/gallery1.png";
-import Gallery6 from "../../../assets/png/gallery/gallery6.png";
-import Gallery3 from "../../../assets/png/gallery/gallery3.png";
-import Gallery4 from "../../../assets/png/gallery/gallery4.png";
+import Gallery1 from "../../../assets/png/home-2.jpg";
+import Gallery6 from "../../../assets/png/home-2.jpg";
+import Gallery3 from "../../../assets/png/home-3.jpg";
+import Gallery4 from "../../../assets/png/home-4.jpg";
 import Gallery5 from "../../../assets/png/gallery/gallery5.png";
 const Gallery = () => {
   return (
@@ -16,7 +16,7 @@ const Gallery = () => {
       </h2>
       <div className="grid md:grid-cols-2 gap-5 mt-5">
         <div>
-          <img src={Gallery1} alt="" className="w-full rounded-[20px]" />
+          <img src={Gallery1} alt="" className="w-full h-full rounded-[20px]" />
         </div>
         <div>
           <div className="grid grid-cols-2 gap-5">
