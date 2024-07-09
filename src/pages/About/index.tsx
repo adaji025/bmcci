@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import SubsidiaryImage from "../../assets/png/wc.png";
+import SubsidiaryImage from "../../assets/png/gallery-3/gallery-3 (1).jpg";
 import BoardMembers from "./components/BoardMembers";
 import Partners from "../Home/components/Partners";
 import Footer from "../../components/Footer";
