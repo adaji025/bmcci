@@ -1,4 +1,4 @@
-const Mission = () => {
+const Phylosophy = () => {
   return (
     <div className="app-width flex flex-col lg:flex-row gap-10 xl:gap-20 justify-between mt-20 overflow-hidden">
       <div className="flex-1">
@@ -72,4 +72,4 @@ const Mission = () => {
   );
 };
 
-export default Mission;
+export default Phylosophy;
