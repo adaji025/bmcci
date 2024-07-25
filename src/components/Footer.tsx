@@ -64,10 +64,25 @@ const Footer = () => {
         <div>
           <h4 className="font-bold">Connect</h4>
           <div className="grid gap-3 font-medium text-[#D0DAF5] mt-5">
-            <div>Facebook</div>
-            <div>Instagram</div>
+            <div>
+              <a href="https://www.facebook.com/wcasummit" target="_blank">
+                Facebook
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.instagram.com/wcasummit?igsh=MjdyZjYwa3dsdDU4"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </div>
             <div>Twitter</div>
-            <div>Linkedin</div>
+            <div>
+              <a href="https://www.linkedin.com/company/women-community-in-africa-summit/">
+                Linkedin
+              </a>
+            </div>
           </div>
         </div>
 
@@ -76,7 +91,7 @@ const Footer = () => {
           <div className="grid gap-3 font-medium text-[#D0DAF5] mt-5">
             <div className="flex gap-2 items-center">
               <IoMailOutline />
-              <div>contact@company.com</div>
+              <div className="">womencommunityinafricawca<br className="hidden lg:block" />@gmail.com</div>
             </div>
             <div className="flex gap-2 items-center">
               <LuPhone />
