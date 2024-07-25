@@ -80,14 +80,13 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 items-center">
               <LuPhone />
-              <div>(414) 687 - 5892</div>
+              <div>09120979281 </div>
             </div>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-start">
               <IoLocationOutline />
               <div>
-                794 Mcallister St
-                <br />
-                San Francisco, 94102
+                No 9, Otuoke street, <br /> off Gimbiya street, <br /> Area 11,
+                Garki Abuja
               </div>
             </div>
           </div>
