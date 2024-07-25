@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
 import Gallery from "./components/Gallery";
 import { Helmet } from "react-helmet";
+import Mission from "./components/Mission";
 
 const WCA = () => {
   useEffect(() => {
@@ -64,6 +65,8 @@ const WCA = () => {
           <img src={SubsidiaryImage} alt="" />
         </div>
       </div>
+
+      <Mission />
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
