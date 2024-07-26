@@ -27,7 +27,7 @@ const WCA = () => {
             data-aos="zoom-in"
           >
             <h2 className="font-bold text-[32px] md:text-[44px] lg:text-[64px] text-center">
-              Women Community in Africa (wCA)
+              Women Community in Africa (WCA)
             </h2>
           </div>
         </div>
@@ -66,7 +66,87 @@ const WCA = () => {
         </div>
       </div>
 
-      <Phylosophy />
+      {/* <Phylosophy /> */}
+
+      <div className="mt-44 app-width">
+        <div className="flex flex-col items-center justify-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+            Philosophy
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+            Empowering Women, Enriching Communities: Unlocking the Potential
+            Within
+          </h2>
+        </div>
+        <div className="mt-10 max-w-[840px] mx-auto">
+          <div>
+            Literacy is a key tool to unlock potentials. Education and
+            self-discovery are the most important components to unlocking
+            individual potential, and we aim to inspire women, girls, and youth
+            to find their voices and pursue their dreams.
+          </div>
+          <div className="mt-5">
+            Understanding Human rights as a universal and inalienable is also
+            key as we advocate for the rights of women, girls, and youth to be
+            respected, protected, and fulfilled
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-44 app-width">
+        <div className="flex flex-col items-center justify-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+            Principles
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+            Our Guiding Principles
+          </h2>
+        </div>
+        <div className="mt-10 max-w-[840px] mx-auto">
+          <div>
+            We Collaborate: We believe in the power of collective action and
+            partnership to drive meaningful change.
+          </div>
+          <div className="mt-5">
+            We Empower: We strive to empower women, girls, and youth to take
+            ownership of their lives and communities.
+          </div>
+          <div className="mt-5">
+            We are Inclusive: We embrace the potential of diversity and promote
+            equal opportunities for all, regardless of background or
+            circumstances.
+          </div>
+          <div className="mt-5">
+            We do not compromise Social Justice: as we commit to addressing the
+            root causes of gender-based violence and promoting human rights for
+            all.
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-44 app-width">
+        <div className="flex flex-col items-center justify-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+            Core Beliefs
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+            Our Core Beliefs
+          </h2>
+        </div>
+        <div className="mt-10 max-w-[840px] mx-auto">
+          <div>
+            Gender equity is a fundamental human right, and we strive to create
+            a world where women and girls can thrive without fear of violence or
+            discrimination.
+          </div>
+          <div className="mt-5">
+            Magnifying our voices as a collective via Community-led solutions
+            are the most effective way to drive lasting change, and we work
+            hand-in-hand with grassroots organisations to co-create a brighter
+            future for our generations to come.
+          </div>
+        </div>
+      </div>
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
