@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
 import Gallery from "./components/Gallery";
 import { Helmet } from "react-helmet";
-import Phylosophy from "./components/Phylosophy";
+// import Phylosophy from "./components/Phylosophy";
 
 const WCA = () => {
   useEffect(() => {
