@@ -19,7 +19,7 @@ const WCA = () => {
         <title>BMCCI - WCA</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      <Navbar />
+      <Navbar pageName={"wca"} />
       <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center">
         <div className="app-width z-10 mt-[60px]">
           <div

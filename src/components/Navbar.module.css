@@ -11,6 +11,10 @@
   display: none;
 }
 
+.wcaLogo {
+  height: 100px !important;
+}
+
 .nav_menu {
   display: grid;
   grid-template-columns: repeat(5, auto);

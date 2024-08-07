@@ -1,9 +1,11 @@
 import Iya from "../../../assets/png/board-members/Iya.png";
+import adetoun from "../../../assets/png/board-members/adetoun.jpg";
 import Mallo from "../../../assets/png/board-members/mallo.png";
 import Salim from "../../../assets/png/board-members/salim.png";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import "../styles/wca.style.css";
 import { useEffect } from "react";
 import Aos from "aos";
 
@@ -14,13 +16,18 @@ const data = [
     title: "Founder",
   },
   {
+    name: "Dr. Adetoun Dally",
+    image: adetoun,
+    title: "Global President General",
+  },
+  {
     name: "Dr. Maimoona Salim",
-    image: Salim,
+    image: Mallo,
     title: "Executive Director",
   },
   {
     name: "Machief Ayuba Mallo",
-    image: Mallo,
+    image: Salim,
     title: "Director of Programs",
   },
 ];
@@ -36,7 +43,7 @@ type IProps = {
 const Board = ({ item }: IProps) => {
   return (
     <div className="w-full text-center flex flex-col items-center justify-center">
-      <img src={item.image} alt={item.name} />
+      <img src={item.image} alt={item.name} className={`boardImg`} />
       <div className="font-semibold text-2xl mt-3">{item.name}</div>
       <div className="font-medium">{item.title}</div>
       <div className="flex gap-3 justify-center items-center mt-2">

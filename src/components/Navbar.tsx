@@ -4,6 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import styles from "./Navbar.module.css";
 import { Button } from "@mantine/core";
 import Logo from "../assets/svg/logo.svg";
+import WCALogo from "../assets/png/wca-logo.png";
 import AboutDropdown from "./AboutDropdown";
 
 const navMenuItems = [
@@ -29,19 +30,26 @@ const navMenuItems = [
   },
 ];
 
-const Navbar = () => {
+const Navbar = (data?: any) => {
+  console.log(data.pageName);
+  const pageName = data?.pageName;
+
   const [menu, setMenu] = useState(false);
   const router = useLocation();
   const navigate = useNavigate();
 
   return (
     <div className="z-[999] bg-white text-black  w-full fixed top-0 shadow">
-
       <nav
         className={`px-5 lg:px-12 max-w-[1440px] flex justify-between ${styles.navbarItems}`}
       >
         <div>
-          <img src={Logo} alt="" />
+          {pageName == "wca" ? (
+            <img src={WCALogo} alt="" className={`${styles.wcaLogo}`} />
+          ) : (
+            <img src={Logo} alt="" />
+          )}
+          {/* <img src={Logo} alt="" /> */}
         </div>
         <div
           className={`cursor-pointer pr-2 ${styles.menuIcon}`}
@@ -90,7 +98,6 @@ const Navbar = () => {
           Donate
         </Button>
       </nav>
-
     </div>
   );
 };
