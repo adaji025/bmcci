@@ -42,7 +42,8 @@ const WCA = () => {
             About WCA
           </div>
           <h2 className="font-bold text-[32px] lg:text-[40px]">
-            The Advocacy Arm of <br className="hidden xl:block" />
+            <span className=" text-blue-600">The Advocacy Arm of </span>{" "}
+            <br className="hidden xl:block" />
             <span className="text-primary">(BMCCI)</span>
           </h2>
           <div className="mt-3">
@@ -73,7 +74,7 @@ const WCA = () => {
           <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
             Philosophy
           </div>
-          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
             Empowering Women, Enriching Communities: Unlocking the Potential
             Within
           </h2>
@@ -98,7 +99,7 @@ const WCA = () => {
           <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
             Principles
           </div>
-          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
             Our Guiding Principles
           </h2>
         </div>
@@ -129,7 +130,7 @@ const WCA = () => {
           <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
             Core Beliefs
           </div>
-          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
             Our Core Beliefs
           </h2>
         </div>
@@ -153,7 +154,7 @@ const WCA = () => {
           <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
             Impact
           </div>
-          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center">
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
             Our approach to sustainable impact
           </h2>
         </div>
@@ -204,9 +205,22 @@ const WCA = () => {
         </div>
       </div>
 
+      <div className="mt-44 app-width">
+        <div className="flex flex-col items-center justify-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+            The Board
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
+            Meet the General Assembly
+          </h2>
+        </div>
+      </div>
+
       <BoardMembers />
       <Gallery />
-      <Footer />
+      <Footer
+        data={{ email: "wca@simagazineng.com", phone: "+234 912 097 9281" }}
+      />
     </Fragment>
   );
 };

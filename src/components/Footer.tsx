@@ -4,7 +4,10 @@ import { IoMailOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 
-const Footer = () => {
+const Footer = (input?: any) => {
+  const phone: string = input?.data?.phone || "";
+  const email: string = input?.data?.email || "";
+
   return (
     <footer className="bg-[#0D0D0D] mt-[240px] text-white" data-aos="fade-up">
       <div className="px-10">
@@ -91,11 +94,14 @@ const Footer = () => {
           <div className="grid gap-3 font-medium text-[#D0DAF5] mt-5">
             <div className="flex gap-2 items-center">
               <IoMailOutline />
-              <div className="">womencommunityinafricawca<br className="hidden lg:block" />@gmail.com</div>
+              <div className="">
+                {email !== "" ? email : "womencommunityinafricawca@gmail.com"}
+                {/* <br className="hidden lg:block" /> */}
+              </div>
             </div>
             <div className="flex gap-2 items-center">
               <LuPhone />
-              <div>09120979281 </div>
+              <div>{phone !== "" ? phone : "09120979281"} </div>
             </div>
             <div className="flex gap-2 items-start">
               <IoLocationOutline />

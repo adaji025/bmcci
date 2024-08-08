@@ -1,7 +1,11 @@
 import Iya from "../../../assets/png/board-members/Iya.png";
 import adetoun from "../../../assets/png/board-members/adetoun.jpg";
-import Mallo from "../../../assets/png/board-members/mallo.png";
-import Salim from "../../../assets/png/board-members/salim.png";
+import Salim from "../../../assets/png/board-members/maimoona.jpg";
+import Mallo from "../../../assets/png/board-members/machief.jpg";
+import Rashida from "../../../assets/png/board-members/rashida.jpg";
+import Jade from "../../../assets/png/board-members/jade.jpg";
+import Ahmad from "../../../assets/png/board-members/ahmad.jpg";
+import Maimuna from "../../../assets/png/board-members/maimuna.jpeg";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -22,13 +26,33 @@ const data = [
   },
   {
     name: "Dr. Maimoona Salim",
-    image: Mallo,
+    image: Salim,
     title: "Executive Director",
   },
   {
     name: "Machief Ayuba Mallo",
-    image: Salim,
+    image: Mallo,
     title: "Director of Programs",
+  },
+  {
+    name: "Madam Rashida Apahade ",
+    image: Rashida,
+    title: "WCA President (June 2022- June 2024)",
+  },
+  {
+    name: "Ahmad Muhammad ",
+    image: Ahmad,
+    title: "Secretariat",
+  },
+  {
+    name: "Barr. Jade Olise ",
+    image: Jade,
+    title: "General Secretary ",
+  },
+  {
+    name: "Dr Maimuna Abdullahi Habib ",
+    image: Maimuna,
+    title: "---",
   },
 ];
 
