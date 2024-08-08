@@ -1,7 +1,13 @@
 .boardImg {
   width: 310px;
   height: 320px;
-  border-radius: 20px 0px 0px 0px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.advocacyImg {
+  border-radius: 20px;
   object-fit: cover;
   object-position: top;
 }

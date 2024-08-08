@@ -68,16 +68,16 @@ const GetInvolve = () => {
             </div>
             <div className="mt-5 font-bold text-2xl">Volunteer</div>
             <div className="mt-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              Become a part of the change ambassadors, become a volunteer today!
             </div>
           </div>
           <div className="flex-1 p-5 bg-[#00725E] text-white rounded-2xl  mn-h-[280px]">
             <div className="flex justify-center items-center bg-white rounded-full h-[54px] w-[54px]">
               <img src={FirstAidIcon} alt="" />
             </div>
-            <div className="mt-5 font-bold text-2xl">Donate Hygiene Kits</div>
+            <div className="mt-5 font-bold text-2xl">Sponsor a community</div>
             <div className="mt-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              Get in touch today, to sponsor a community!
             </div>
           </div>
         </div>

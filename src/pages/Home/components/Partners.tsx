@@ -1,6 +1,28 @@
 import Slider from "react-slick";
+import NYSC from "../../../assets/partners/NYSC.jfif";
+import FIRS from "../../../assets/partners/FIRS.jfif";
+import CBN from "../../../assets/partners/cbn-logo.jfif";
+import NHRC from "../../../assets/partners/NHRC.jfif";
+import CIDI from "../../../assets/partners/cidi.jpg";
+import KAS from "../../../assets/partners/kas.jpg";
+import RASAM from "../../../assets/partners/rasam.jpg";
+import SI from "../../../assets/partners/si.jpeg";
+import NCC from "../../../assets/partners/ncc.jpeg";
+import JADE from "../../../assets/partners/jade.jpeg";
 
 const Partners = () => {
+  const images: Array<any> = [
+    NYSC,
+    FIRS,
+    CBN,
+    NHRC,
+    CIDI,
+    KAS,
+    RASAM,
+    SI,
+    NCC,
+    JADE,
+  ];
   const settings = {
     dots: true,
     infinite: true,
@@ -38,9 +60,11 @@ const Partners = () => {
     ],
   };
 
-  const Card = () => {
+  const Card = (value: any) => {
     return (
-      <div className="min-h-[164px] w-[90%] border border-[#00725E] p-5 rounded-xl"></div>
+      <div className="h-[164px] h-[100%] w-[90%] border border-[#00725E] p-5 rounded-xl flex justify-center">
+        <img src={value.data} alt="Partner" className="max-h-[100%]" />
+      </div>
     );
   };
 
@@ -61,14 +85,14 @@ const Partners = () => {
           <div className="max-w-[500px] ml-auto">
             Beyond Mentors Community Care Initiatives (BMCCI) is devoted to the
             social, economic and educational development; counselling and
-            mentoring of rural and urban communities in Northern Nigeria..
+            mentoring of rural and urban communities in Northern Nigeria...
           </div>
         </div>
       </div>
       <div className="mt-10">
         <Slider {...settings}>
-          {[...Array(8)].map((_, i) => (
-            <Card key={i} />
+          {images.map((img, i) => (
+            <Card key={i} data={img} />
           ))}
         </Slider>
       </div>

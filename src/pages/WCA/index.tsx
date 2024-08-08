@@ -1,6 +1,7 @@
 import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import SubsidiaryImage from "../../assets/png/wc.png";
+import GeneralImage from "../../assets/others/general.jpg";
 import GirlsImage from "../../assets/png/girls.png";
 import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
@@ -63,7 +64,7 @@ const WCA = () => {
           </div>
         </div>
         <div className="flex-1">
-          <img src={SubsidiaryImage} alt="" />
+          <img src={GeneralImage} alt="" className="advocacyImg" />
         </div>
       </div>
 
@@ -181,7 +182,7 @@ const WCA = () => {
         </div>
 
         <div className="mt-10">
-          <img src={GirlsImage} alt="" className="rounded-[20px] mx-auto" />
+          <img src={GeneralImage} alt="" className="rounded-[20px] mx-auto" />
         </div>
 
         <div className="mt-20 max-w-[840px] mx-auto">
