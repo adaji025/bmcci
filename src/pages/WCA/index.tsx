@@ -1,8 +1,8 @@
 import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
-import SubsidiaryImage from "../../assets/png/wc.png";
+// import SubsidiaryImage from "../../assets/png/wc.png";
 import GeneralImage from "../../assets/others/general.jpg";
-import GirlsImage from "../../assets/png/girls.png";
+// import GirlsImage from "../../assets/png/girls.png";
 import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
 import Gallery from "./components/Gallery";
