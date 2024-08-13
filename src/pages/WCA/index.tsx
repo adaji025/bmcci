@@ -2,6 +2,8 @@ import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 // import SubsidiaryImage from "../../assets/png/wc.png";
 import GeneralImage from "../../assets/others/general.jpg";
+import Advocacy from "../../assets/wca/advocacy.jpg";
+import Approach from "../../assets/wca/approach.webp";
 // import GirlsImage from "../../assets/png/girls.png";
 import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
@@ -64,7 +66,7 @@ const WCA = () => {
           </div>
         </div>
         <div className="flex-1">
-          <img src={GeneralImage} alt="" className="advocacyImg" />
+          <img src={Advocacy} alt="" className="advocacyImg" />
         </div>
       </div>
 
@@ -106,22 +108,26 @@ const WCA = () => {
         </div>
         <div className="mt-10 max-w-[840px] mx-auto">
           <div>
-            We Collaborate: We believe in the power of collective action and
-            partnership to drive meaningful change.
+            <span className="text-red-600 font-bold">We Collaborate:</span> We
+            believe in the power of collective action and partnership to drive
+            meaningful change.
           </div>
           <div className="mt-5">
-            We Empower: We strive to empower women, girls, and youth to take
-            ownership of their lives and communities.
+            <span className="text-green-600 font-bold">We Empower:</span> We
+            strive to empower women, girls, and youth to take ownership of their
+            lives and communities.
           </div>
           <div className="mt-5">
-            We are Inclusive: We embrace the potential of diversity and promote
-            equal opportunities for all, regardless of background or
-            circumstances.
+            <span className="text-blue-600 font-bold">We are Inclusive:</span>
+            We embrace the potential of diversity and promote equal
+            opportunities for all, regardless of background or circumstances.
           </div>
           <div className="mt-5">
-            We do not compromise Social Justice: as we commit to addressing the
-            root causes of gender-based violence and promoting human rights for
-            all.
+            <span className="text-black font-bold">
+              We do not compromise Social Justice:
+            </span>{" "}
+            as we commit to addressing the root causes of gender-based violence
+            and promoting human rights for all.
           </div>
         </div>
       </div>
@@ -161,47 +167,55 @@ const WCA = () => {
         </div>
         <div className="mt-10 max-w-[840px] mx-auto">
           <div>
-            In 2018, we had a summit on Child Sexual Abuse which is in
-            partnership with Girls Not Brides UK, had a six (6) months campaign
-            on ending child marriage, which was also concluded with a summit on
-            the 26th day of May 2022. Our Summits are not talk shops, when we
-            bring stakeholders together we come up with solutions documented in
-            a communique that directs and activates our expected outcomes to act
-            upon our discoveries
+            In 2018, we hosted a summit on Child Sexual Abuse in partnership
+            with Girls Not Brides UK, followed by a six-month campaign to end
+            child marriage, culminating in a summit on 26 May 2022. Our summits
+            are not mere talking shops; instead, we bring stakeholders together
+            to develop solutions, documented in a communiqué that outlines
+            actionable steps to address our findings. This approach has enabled
+            us to impact over 25,000 women, children, and young people
+            conservatively over the years.
           </div>
           <div className="mt-5">
-            Which has enabled us to impact on more than 25000 conservatively;
-            women children and youth accordingly over the years.In 2023, we turn
-            to the BOY CHILD, our coalition-members of Women Community In Africa
-            and other Non-Governmental Institutions had more than focused on the
-            girl child, we believe that if we do not give enough or equal
-            attention to the boy children, one boy child can destroy a
-            generation of all the work done on the girl child. Most of the
-            dangers faced by the girls are perpetrated by the boy-child/Men.
+            In 2023, we shifted our focus to the boy child. Whilst our coalition
+            members, Women Community in Africa, and other Non-Governmental
+            Organisations have primarily concentrated on the girl child, we
+            recognise that neglecting the boy child could undermine our
+            progress. One boy child can potentially undo the gains made for the
+            girl child, as boys and men often perpetrate the dangers faced by
+            girls. Therefore, we believe it is essential to give equal attention
+            to the boy child.
+          </div>
+          <div className="mt-5">
+            The most effective solution is to nurture and re-engineer the boy
+            child to embrace values that align with our mission, enabling them
+            to collaborate with us and understand the importance of protecting
+            and developing every girl child. When girl children are
+            well-developed- mentally, intellectually, and financially - they
+            become a vast, resourceful ecosystem that supports the sustainable
+            development goals in their communities.
           </div>
         </div>
 
         <div className="mt-10">
-          <img src={GeneralImage} alt="" className="rounded-[20px] mx-auto" />
+          <img src={Approach} alt="" className="rounded-[20px] mx-auto" />
         </div>
 
         <div className="mt-20 max-w-[840px] mx-auto">
           <div>
-            The best solution is to groom and re-engineer the boy child to value
-            so that they can collaborate with our work and understand the
-            significance of protecting developing every girl child, as society
-            thrives when girl children are well developed; mentally,
-            intellectually and financially they become huge resourceful
-            ecosystem that supports the sustainable development goals for their
-            various communities.
+            Our campaign focusing on the boy child culminated in a physical
+            summit, where esteemed individuals from society gathered to engage
+            with over 250 boys. The summit was carefully planned with specific
+            outcomes in mind, including:
           </div>
           <div className="mt-5">
-            Our boy child campaign culminated in a physical summit, where
-            notable individuals from society came together to speak to over 250
-            boys. The summit was planned with specific outcomes in mind,
-            including continued advocacy for the boy child and support for
-            coalition members who are running similar campaigns in their
-            communities."
+            <ul className="list" style={{ listStyle: "disc" }}>
+              <li>Continued advocacy for the boy child</li>
+              <li>
+                Support for coalition members running similar campaigns in their
+                communities
+              </li>
+            </ul>
           </div>
         </div>
       </div>
