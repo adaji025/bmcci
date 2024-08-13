@@ -1,7 +1,7 @@
 import { Fragment, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 // import SubsidiaryImage from "../../assets/png/wc.png";
-import GeneralImage from "../../assets/others/general.jpg";
+// import GeneralImage from "../../assets/others/general.jpg";
 import Advocacy from "../../assets/wca/advocacy.jpg";
 import Approach from "../../assets/wca/approach.webp";
 // import GirlsImage from "../../assets/png/girls.png";
