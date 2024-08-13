@@ -28,8 +28,7 @@ const Donate = () => {
               Join us in making a difference, one donation at a time
             </h2>
             <div className="mt-1 font-medium max-w-[500px] mx-auto text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
+              Your donations will go a long way, donate today!
             </div>
             <div className="flex justify-center mt-5">
               <Button color="white" size="md" className="text-black">

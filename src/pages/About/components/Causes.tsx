@@ -96,7 +96,7 @@ const Causes = () => {
                 Financial Literacy campaigns
               </h3>
               <div className="mt-3">
-                FFinancial Literacy campaigns and zero interest loan for small
+                Financial Literacy campaigns and zero interest loan for small
                 businesswomen and traders serves as a platform to Drive positive
                 change for women while Creating a sustainable future for
                 families through empowerment and livelihood enhancement.

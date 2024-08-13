@@ -30,7 +30,7 @@ const About = () => {
       >
         <div className="flex-1">
           <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
-            Who WE ARE
+            Who We Are
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2>
 
@@ -64,7 +64,7 @@ const About = () => {
       <div className="app-width">
         <div className="mt-32 px-5 bg-primary min-h-[540px] w-full rounded-xl flex flex-col justify-center items-center">
           <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
-            wHAT wE HAVE dONE
+            WHAT WE HAVE DONE
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[600px] mx-auto text-center">
             Impact over the last 10 years

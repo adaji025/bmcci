@@ -6,7 +6,7 @@ const Mission = () => {
           Our Mission
         </div>
         <div className="max-w-[600px] mt-3">
-          <h2 className="font-medium text-[20px] md:text-[24px]">
+          <h2 className="font-bold text-[20px] md:text-[24px] text-red-600">
             Facilitating a process to legislate appropriate Laws to inspire and
             empower children and women in Africa
           </h2>
@@ -32,7 +32,7 @@ const Mission = () => {
           Our vision
         </div>
         <div className="max-w-[600px] mt-3">
-          <h2 className="font-medium text-[20px] md:text-[24px]">
+          <h2 className="font-bold text-[20px] md:text-[24px] text-green-600">
             Charting a legacy of solutions on devastating social issues that
             impacts on Communities in Africa
           </h2>

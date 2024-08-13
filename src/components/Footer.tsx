@@ -80,9 +80,17 @@ const Footer = (input?: any) => {
                 Instagram
               </a>
             </div>
-            <div>Twitter</div>
             <div>
-              <a href="https://www.linkedin.com/company/women-community-in-africa-summit/">
+              {" "}
+              <a href="https://x.com/WomenWca14691" target="_blank">
+                Twitter
+              </a>{" "}
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/company/women-community-in-africa-summit/"
+                target="_blank"
+              >
                 Linkedin
               </a>
             </div>
