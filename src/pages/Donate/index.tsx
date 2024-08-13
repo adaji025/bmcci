@@ -12,7 +12,7 @@ const Donate = () => {
   }, []);
   return (
     <Fragment>
-       <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>BMCCI - Donate</title>
         <link rel="canonical" href="http://mysite.com/example" />
@@ -25,7 +25,7 @@ const Donate = () => {
             data-aos="zoom-in"
           >
             <h2 className="font-bold text-[32px] md:text-[44px] lg:text-[64px] text-center">
-              Raise your funds for a cause you care
+              Join us in making a difference, one donation at a time
             </h2>
             <div className="mt-1 font-medium max-w-[500px] mx-auto text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.

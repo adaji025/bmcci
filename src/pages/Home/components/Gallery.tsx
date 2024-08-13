@@ -12,7 +12,7 @@ const Gallery = () => {
         </div>
       </div>
       <h2 className="font-semibold text-[32px] lg:text-[48px] mt-5 text-center">
-        Raise your funds for a cause you care
+        Join us in making a difference, one donation at a time
       </h2>
       <div className="grid md:grid-cols-2 gap-5 mt-5">
         <div>
@@ -20,7 +20,11 @@ const Gallery = () => {
         </div>
         <div>
           <div className="grid grid-cols-2 gap-5">
-            <img src={Gallery5} alt="" className="w-full rounded-[20px] h-full object-cover" />
+            <img
+              src={Gallery5}
+              alt=""
+              className="w-full rounded-[20px] h-full object-cover"
+            />
             <img src={Gallery4} alt="" className="w-full rounded-[20px]" />
           </div>
           <div className="grid grid-cols-2 gap-5 mt-5">

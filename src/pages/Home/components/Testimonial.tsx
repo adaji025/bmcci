@@ -90,7 +90,7 @@ const Testimonial = () => {
             Our Causes
           </div>
           <h2 className="font-semibold text-[32px] lg:text-[48px] leading-none">
-            Raise your funds for a cause you care
+            Join us in making a difference, one donation at a time
           </h2>
         </div>
         <div className="flex gap-5">

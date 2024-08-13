@@ -95,7 +95,7 @@ const Footer = (input?: any) => {
             <div className="flex gap-2 items-center">
               <IoMailOutline />
               <div className="">
-                {email !== "" ? email : "womencommunityinafricawca@gmail.com"}
+                {email !== "" ? email : "admin.wca@sigroupint.org"}
                 {/* <br className="hidden lg:block" /> */}
               </div>
             </div>

@@ -234,7 +234,7 @@ const WCA = () => {
       <BoardMembers />
       <Gallery />
       <Footer
-        data={{ email: "wca@simagazineng.com", phone: "+234 912 097 9281" }}
+        data={{ email: "admin.wca@sigroupint.org", phone: "+234 912 097 9281" }}
       />
     </Fragment>
   );
