@@ -1,12 +1,14 @@
 import Iya from "../../../assets/png/board-members/Iya.png";
-import Mallo from "../../../assets/png/board-members/mallo.png";
-import Salim from "../../../assets/png/board-members/salim.png";
+// import Mallo from "../../../assets/png/board-members/mallo.png";
+import Salim from "../../../assets/png/board-members/maimoona.jpg";
 import Rafiu from "../../../assets/png/board-members/rafiu.png";
 import Aliyu from "../../../assets/png/board-members/aliyu.png";
 import DEborah from "../../../assets/png/board-members/deborah.png";
+import Mallo from "../../../assets/png/board-members/machief.jpg";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import "../../WCA/styles/wca.style.css";
 import { Fragment, useEffect } from "react";
 import Aos from "aos";
 import Slider from "react-slick";
@@ -55,7 +57,7 @@ type IProps = {
 const Board = ({ item }: IProps) => {
   return (
     <div className="w-full text-center flex flex-col items-center justify-center">
-      <img src={item.image} alt={item.name} />
+      <img src={item.image} alt={item.name} className="boardImg" />
       <div className="font-semibold text-2xl mt-3">{item.name}</div>
       <div className="font-medium">{item.title}</div>
       <div className="flex gap-3 justify-center items-center mt-2">
