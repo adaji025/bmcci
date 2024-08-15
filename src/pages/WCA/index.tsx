@@ -78,8 +78,7 @@ const WCA = () => {
             Philosophy
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
-            Empowering Women, Enriching Communities: Unlocking the Potential
-            Within
+            Empowering women, Enriching lives
           </h2>
         </div>
         <div className="mt-10 max-w-[840px] mx-auto">

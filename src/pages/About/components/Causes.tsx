@@ -19,7 +19,7 @@ const Causes = () => {
           </div>
           <div className="max-w-[600px]">
             <h2 className="font-semibold text-[32px] lg:text-[48px] leading-none">
-              Join us in making a difference, one donation at a time
+              Join us in making a difference
             </h2>
           </div>
         </div>

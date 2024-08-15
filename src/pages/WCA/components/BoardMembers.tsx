@@ -1,4 +1,3 @@
-import Iya from "../../../assets/png/board-members/Iya.png";
 import adetoun from "../../../assets/png/board-members/adetoun.jpg";
 import Salim from "../../../assets/png/board-members/maimoona.jpg";
 import Mallo from "../../../assets/png/board-members/machief.jpg";
@@ -6,6 +5,7 @@ import Maimuna from "../../../assets/png/board-members/maimuna.jpeg";
 import Rashida from "../../../assets/png/board-members/rashida.jpg";
 import Jade from "../../../assets/png/board-members/jade.jpg";
 import Ahmad from "../../../assets/png/board-members/ahmad.jpg";
+import Kiya from "../../../assets/wca/iya.jpeg";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -16,7 +16,7 @@ import Aos from "aos";
 const data = [
   {
     name: "Khadijah Abdullahi Iya",
-    image: Iya,
+    image: Kiya,
     title: "Founder",
   },
   {

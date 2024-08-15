@@ -7,8 +7,7 @@ const Phylosophy = () => {
         </div>
         <div className="max-w-[600px] mt-3">
           <h2 className="font-medium text-[20px] md:text-[24px]">
-            Empowering Women, Enriching Communities: Unlocking the Potential
-            Within
+            Empowering women, Enriching lives
           </h2>
         </div>
         <div className="mt-3">

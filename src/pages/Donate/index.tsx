@@ -25,7 +25,7 @@ const Donate = () => {
             data-aos="zoom-in"
           >
             <h2 className="font-bold text-[32px] md:text-[44px] lg:text-[64px] text-center">
-              Join us in making a difference, one donation at a time
+              Join us in making a difference
             </h2>
             <div className="mt-1 font-medium max-w-[500px] mx-auto text-center">
               Your donations will go a long way, donate today!

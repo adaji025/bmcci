@@ -12,7 +12,7 @@ const Gallery = () => {
         </div>
       </div>
       <h2 className="font-semibold text-[32px] lg:text-[48px] mt-5 text-center">
-        Join us in making a difference, one donation at a time
+        Join us in making a difference
       </h2>
       <div className="grid md:grid-cols-2 gap-5 mt-5">
         <div>

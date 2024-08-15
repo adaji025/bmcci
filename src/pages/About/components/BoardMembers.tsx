@@ -1,4 +1,4 @@
-import Iya from "../../../assets/png/board-members/Iya.png";
+import Iya from "../../../assets/wca/iya.jpeg";
 // import Mallo from "../../../assets/png/board-members/mallo.png";
 import Salim from "../../../assets/png/board-members/maimoona.jpg";
 import Rafiu from "../../../assets/png/board-members/rafiu.png";
