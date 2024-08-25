@@ -13,7 +13,7 @@ const Causes = () => {
   return (
     <div className="mt-20 app-width overflow-hidden">
       <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 lg:gap-20">
-        <div className="flex-1">
+        {/* <div className="flex-1">
           <div className="bg-[#92CD0033]/20 px-5 py-3 mb-3 rounded w-max text-xs text-[#2C6700] font-medium">
             Our Causes
           </div>
@@ -22,16 +22,16 @@ const Causes = () => {
               Join us in making a difference
             </h2>
           </div>
-        </div>
+        </div> */}
         <div className="flex-1">
-          <div>
+          <div className="text-justify">
             Ensuring education for all is very vital to the significant growth
-            of the community in order to promote social change and growth,
+            of the community in order to promote social change and growth.
           </div>
           <Button
             size="md"
             className="bg-primary hover:bg-primary/80 hidden lg:block mt-5 text-black"
-            onClick={() => navigate("/about")}
+            onClick={() => navigate("/donate")}
           >
             Donate Now
           </Button>
@@ -44,7 +44,7 @@ const Causes = () => {
               <h3 className="font-bold text-[28px]">
                 Rags To Riches (R2R) 2021 Graduation
               </h3>
-              <div className="mt-3">
+              <div className="mt-3 text-justify">
                 This serves as a platform for members to develop essential life
                 skills and make informed choices for their futures. The R2R club
                 focuses on several key areas, including leadership skills,
@@ -71,7 +71,7 @@ const Causes = () => {
           <div className="z-10 h-2/3 flex flex-col justify-between">
             <div>
               <h3 className="font-bold text-[28px]">Education</h3>
-              <div className="mt-3">
+              <div className="mt-3  text-justify">
                 One of the main focuses of BMCCI is on education. The initiative
                 aims to improve access to quality education for young minds from
                 a very early age. This includes providing education and training
@@ -94,7 +94,7 @@ const Causes = () => {
               <h3 className="font-bold text-[28px]">
                 Financial Literacy campaigns
               </h3>
-              <div className="mt-3">
+              <div className="mt-3 text-justify">
                 Financial Literacy campaigns and zero interest loan for small
                 businesswomen and traders serves as a platform to Drive positive
                 change for women while Creating a sustainable future for

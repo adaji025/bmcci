@@ -1,5 +1,5 @@
 import { Button } from "@mantine/core";
-import AboutImage from "../../../assets/png/home-1.jpg";
+import AboutImage from "../../../assets/home-abt.jpeg";
 import { useEffect } from "react";
 import Aos from "aos";
 import { useNavigate } from "react-router-dom";
@@ -23,14 +23,14 @@ const About = () => {
           Beyond Mentors Community Care Initiatives{" "}
           <span className="text-primary">(BMCCI)</span>
         </h2>
-        <div className="mt-3">
+        <div className="mt-3  text-justify">
           We are devoted to the social, economic and educational development;
           counselling and mentoring of rural and urban communities in Northern
           Nigeria..
         </div>
-        <div className="mt-3">
+        <div className="mt-3  text-justify">
           Our community of about 15 civil societies (still growing) consists of
-          legal Ngo’s, medical Ngos and some Governmental bodies from Gender
+          legal NGO'S, medical NGO'S and some Governmental bodies from Gender
           Departments who are all part of our network.
         </div>
         <Button

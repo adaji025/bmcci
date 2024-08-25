@@ -11,7 +11,7 @@ const YoutubeEmbed = ({ embedId }: { embedId: string }) => (
     <iframe
       width="100%"
       height="480"
-      src="https://www.youtube.com/embed/E1xkXZs0cAQ?si=u8feJcpo2Tma1l6P"
+      src="https://www.youtube.com/embed/mg6k3W2MNxY?si=pJ68ilRf48-IAWko"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
       title={`YouTube video player ${embedId}`}

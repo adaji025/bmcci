@@ -11,9 +11,9 @@ const Gallery = () => {
           Gallery
         </div>
       </div>
-      <h2 className="font-semibold text-[32px] lg:text-[48px] mt-5 text-center">
+      {/* <h2 className="font-semibold text-[32px] lg:text-[48px] mt-5 text-center">
         Join us in making a difference
-      </h2>
+      </h2> */}
       <div className="grid md:grid-cols-2 gap-5 mt-5">
         <div>
           <img src={Gallery1} alt="" className="w-full h-full rounded-[20px]" />
