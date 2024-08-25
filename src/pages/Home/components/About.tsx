@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div className="mt-3  text-justify">
           Our community of about 15 civil societies (still growing) consists of
-          legal NGO'S, medical NGO'S and some Governmental bodies from Gender
+          legal NGO's, medical NGO's and some Governmental bodies from Gender
           Departments who are all part of our network.
         </div>
         <Button

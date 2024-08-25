@@ -2,8 +2,6 @@ import Iya from "../../../assets/wca/iya.jpeg";
 // import Mallo from "../../../assets/png/board-members/mallo.png";
 import Salim from "../../../assets/png/board-members/maimoona.jpg";
 import Rafiu from "../../../assets/png/board-members/rafiu.png";
-import Aliyu from "../../../assets/png/board-members/aliyu.png";
-import DEborah from "../../../assets/png/board-members/deborah.png";
 import Mallo from "../../../assets/png/board-members/machief.jpg";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
