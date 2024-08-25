@@ -16,12 +16,12 @@ const Footer = (input?: any) => {
           className="home-banner-2 min-h-[400px] rounded-[20px] max-w-[1100px] mx-auto flex justify-center items-center text-center text-white mt-20 overflow-hidden -translate-y-[180px]"
         >
           <div className="">
-            <h2
+            {/* <h2
               className="font-bold text-[32px] md:text-[32px] lg:text-[48px] max-w-[450px] mx-auto"
               data-aos="zoom-out"
             >
               Join us to make a change
-            </h2>
+            </h2> */}
             <div className="mt-3 flex items-center justify-center gap-4">
               <Button
                 size="md"

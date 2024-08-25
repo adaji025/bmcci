@@ -34,16 +34,6 @@ const data = [
     image: Rafiu,
     title: "Executive Director",
   },
-  {
-    name: "Aliyu Shehu",
-    image: Aliyu,
-    title: "Volunteer",
-  },
-  {
-    name: "Deborah",
-    image: DEborah,
-    title: "Volunteer",
-  },
 ];
 
 type IProps = {
@@ -116,7 +106,7 @@ const BoardMembers = () => {
       <div className="mt-44 overflow-hidden">
         <div className="flex flex-col items-center text-center">
           <div className="bg-[#92CD0033]/20 px-2 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
-            Behind SI GROUP
+            BEHIND SI GROUP
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px]">
             Meet the Board

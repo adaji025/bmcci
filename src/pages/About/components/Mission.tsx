@@ -7,8 +7,7 @@ const Mission = () => {
         </div>
         <div className="max-w-[600px] mt-3">
           <h2 className="font-bold text-[20px] md:text-[24px] text-red-600">
-            Facilitating a process to legislate appropriate Laws to inspire and
-            empower children and women in Africa
+            Creating Conducive Learning Spaces for Marginalized Communities
           </h2>
         </div>
         <div className="mt-3">
@@ -33,8 +32,7 @@ const Mission = () => {
         </div>
         <div className="max-w-[600px] mt-3">
           <h2 className="font-bold text-[20px] md:text-[24px] text-green-600">
-            Charting a legacy of solutions on devastating social issues that
-            impacts on Communities in Africa
+            We aim to prevent and eradicate poverty from its root in Nigeria, particularly in Northern Nigeria.
           </h2>
         </div>
         <div className="mt-3">

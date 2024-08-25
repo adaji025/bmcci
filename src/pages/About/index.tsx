@@ -32,14 +32,14 @@ const About = () => {
           <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
             Who We Are
           </div>
-          <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2>
+          {/* <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2> */}
 
-          <div className="mt-3">
+          <div className="mt-3 text-justify">
             Beyond Mentors Community Care Initiatives (BMCCI) is devoted to the
             social, economic and educational development; counselling and
             mentoring of rural and urban communities in Northern Nigeria..
           </div>
-          <div className="mt-3">
+          <div className="mt-3 text-justify">
             It was first conceived, in 2007, out of the need to address and
             prevent poverty in Northern Nigeria targeting young minds from the
             cradle. It was registered as a social enterprise in 2013 and as a
@@ -47,8 +47,8 @@ const About = () => {
             targets are the most vulnerable and marginalized members of the
             society.
           </div>
-          <div className="mt-3">
-            Contents centre on how to utilize and make the best use of all the
+          <div className="mt-3 text-justify">
+            Content in curriculum are centred on how to utilise and make the best use of all the
             financial tools available yet enabling leadership skills and life
             skills to prepare women, children and youth to make better and
             informed choices and obtaining life skills along the way. It is an
@@ -67,13 +67,13 @@ const About = () => {
             WHAT WE HAVE DONE
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[600px] mx-auto text-center">
-            Impact over the last 10 years
+            Impact over the last 17 years
           </h2>
-          <div className="mt-3 max-w-[800px] mx-auto text-center">
-            The organization has been contributing to the social and educational
-            development, counseling and mentoring of rural and urban communities
-            particularly in the Secondary schools and sanitary education,
-            Community mobilization especially mobilising girl-child education,
+          <div className="mt-3 max-w-[800px] mx-auto text-justify">
+            The organisation has been contributing to the social and educational
+            development, counselling and mentoring of rural and urban communities
+            particularly in the secondary schools and sanitary education,
+            community mobilisation especially mobilising girl-child education,
             setting up financial literacy clubs for secondary schools, economic
             and overall empowerment of the less-privileged, orphans and
             vulnerable groups in the society.
