@@ -26,6 +26,14 @@ import G22 from "../../assets/png/gallery-3/gallery-3 (3).jpg";
 import G23 from "../../assets/png/gallery-3/gallery-3 (4).jpg";
 import G24 from "../../assets/png/gallery-3/gallery-3 (5).jpg";
 import G25 from "../../assets/png/gallery-3/gallery-3 (6).jpg";
+import G26 from "../../assets/bmcci-gallery-1.jpeg";
+import G27 from "../../assets/bmcci-gallery-2.jpeg";
+import G28 from "../../assets/bmcci-gallery-3.jpeg";
+import G29 from "../../assets/bmcci-gallery-4.jpg";
+import G30 from "../../assets/bmcci-gallery-5.jpeg";
+import G31 from "../../assets/bmcci-gallery-6.jpeg";
+import G32 from "../../assets/bmcci-gallery-7.jpeg";
+import G33 from "../../assets/bmcci-gallery-8.jpeg";
 
 import Footer from "../../components/Footer";
 import { Fragment } from "react/jsx-runtime";
@@ -159,6 +167,38 @@ const Gallery = () => {
     {
       text: "WCA Distributes Free Covid Kit",
       image: G25,
+    },
+    {
+      text: "More from our events",
+      image: G26,
+    },
+    {
+      text: "More from our events",
+      image: G27,
+    },
+    {
+      text: "More from our events",
+      image: G28,
+    },
+    {
+      text: "More from our events",
+      image: G29,
+    },
+    {
+      text: "More from our events",
+      image: G30,
+    },
+    {
+      text: "More from our events",
+      image: G31,
+    },
+    {
+      text: "More from our events",
+      image: G32,
+    },
+    {
+      text: "More from our events",
+      image: G33,
     },
   ];
 

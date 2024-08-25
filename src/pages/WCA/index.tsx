@@ -50,7 +50,7 @@ const WCA = () => {
             <br className="hidden xl:block" />
             <span className="text-primary">(BMCCI)</span>
           </h2>
-          <div className="mt-3">
+          <div className="mt-3 text-[20px] text-justify">
             Women Community in Africa (WCA) is the advocacy arm of Beyond
             Mentors Community Care Initiatives, and a coalition of
             Non-Governmental Organisations(NGOs) and Civil Societal
@@ -60,7 +60,7 @@ const WCA = () => {
             the devastating social issues especially Issues of Gender Based
             Violence (GBV) against women and children.
           </div>
-          <div className="mt-3">
+          <div className="mt-3 text-[20px] text-justify">
             Women Community in Africa (WCA), has recorded lots of great strides
             in identifying and advocating against a variety of societal wrongs
             and proffering solutions.
@@ -82,14 +82,14 @@ const WCA = () => {
             Empowering women, Enriching lives
           </h2>
         </div>
-        <div className="mt-10 max-w-[840px] mx-auto">
+        <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
             Literacy is a key tool to unlock potentials. Education and
             self-discovery are the most important components to unlocking
             individual potential, and we aim to inspire women, girls, and youth
             to find their voices and pursue their dreams.
           </div>
-          <div className="mt-5">
+          <div className="mt-5 text-[20px] text-justify">
             Understanding Human rights as a universal and inalienable is also
             key as we advocate for the rights of women, girls, and youth to be
             respected, protected, and fulfilled
@@ -106,7 +106,7 @@ const WCA = () => {
             Our Guiding Principles
           </h2>
         </div>
-        <div className="mt-10 max-w-[840px] mx-auto">
+        <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
             <span className="text-red-600 font-bold">We Collaborate:</span> We
             believe in the power of collective action and partnership to drive
@@ -141,7 +141,7 @@ const WCA = () => {
             Our Core Beliefs
           </h2>
         </div>
-        <div className="mt-10 max-w-[840px] mx-auto">
+        <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
             Gender equity is a fundamental human right, and we strive to create
             a world where women and girls can thrive without fear of violence or
@@ -165,7 +165,7 @@ const WCA = () => {
             Our approach to sustainable impact
           </h2>
         </div>
-        <div className="mt-10 max-w-[840px] mx-auto">
+        <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
             In 2018, we hosted a summit on Child Sexual Abuse in partnership
             with Girls Not Brides UK, followed by a six-month campaign to end
@@ -201,7 +201,7 @@ const WCA = () => {
           <img src={Approach} alt="" className="rounded-[20px] mx-auto" />
         </div>
 
-        <div className="mt-20 max-w-[840px] mx-auto">
+        <div className="mt-20 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
             Our campaign focusing on the boy child culminated in a physical
             summit, where esteemed individuals from society gathered to engage
