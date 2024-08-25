@@ -35,16 +35,6 @@ const data = [
     title: "Director of Programs",
   },
   {
-    name: "Madam Rashida Apahade ",
-    image: Rashida,
-    title: "WCA President (June 2022- June 2024)",
-  },
-  {
-    name: "Ahmad Muhammad ",
-    image: Ahmad,
-    title: "Secretariat",
-  },
-  {
     name: "Barr. Jade Olise ",
     image: Jade,
     title: "General Secretary ",
@@ -53,6 +43,11 @@ const data = [
     name: "Dr Maimuna Abdullahi Habib ",
     image: Maimuna,
     title: "---",
+  },
+  {
+    name: "Ahmad Muhammad ",
+    image: Ahmad,
+    title: "Secretariat",
   },
 ];
 
@@ -85,13 +80,34 @@ const BoardMembers = () => {
   }, []);
 
   return (
+    <div>
     <div
-      className="max-w-[1100px] mx-auto px-5 lg:px-12 grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-12"
+      className="max-w-[1100px] mx-auto px-5 lg:px-12 grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-12 justify-center"
+      data-aos="fade-up"
+    >
+    <div className="w-full text-center flex flex-col items-center justify-center">
+      </div>
+    <div className="w-full text-center flex flex-col items-center justify-center">
+      <img src={Rashida} alt="Madam Rashida Apahade " className={`boardImg`} />
+      <div className="font-semibold text-2xl mt-3">Madam Rashida Apahade </div>
+      <div className="font-medium">WCA President (June 2022- June 2024)</div>
+      <div className="flex gap-3 justify-center items-center mt-2">
+        <FaFacebook />
+        <FaXTwitter />
+        <FaLinkedin />
+      </div>
+    <div className="w-full text-center flex flex-col items-center justify-center">
+      </div>
+    </div>
+    </div>
+    <div
+      className="max-w-[1100px] mx-auto px-5 lg:px-12 grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-12 justify-center"
       data-aos="fade-up"
     >
       {data.map((item, index) => (
         <Board item={item} key={index} />
       ))}
+    </div>
     </div>
   );
 };
