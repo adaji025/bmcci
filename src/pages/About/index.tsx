@@ -34,12 +34,12 @@ const About = () => {
           </div>
           {/* <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2> */}
 
-          <div className="mt-3 text-justify">
+          <div className="mt-3 text-justify text-[20px]">
             Beyond Mentors Community Care Initiatives (BMCCI) is devoted to the
             social, economic and educational development; counselling and
             mentoring of rural and urban communities in Northern Nigeria..
           </div>
-          <div className="mt-3 text-justify">
+          <div className="mt-3 text-justify text-[20px]">
             It was first conceived, in 2007, out of the need to address and
             prevent poverty in Northern Nigeria targeting young minds from the
             cradle. It was registered as a social enterprise in 2013 and as a
@@ -47,7 +47,7 @@ const About = () => {
             targets are the most vulnerable and marginalized members of the
             society.
           </div>
-          <div className="mt-3 text-justify">
+          <div className="mt-3 text-justify text-[20px]">
             Content in curriculum are centred on how to utilise and make the best use of all the
             financial tools available yet enabling leadership skills and life
             skills to prepare women, children and youth to make better and
@@ -69,7 +69,7 @@ const About = () => {
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[600px] mx-auto text-center">
             Impact over the last 17 years
           </h2>
-          <div className="mt-3 max-w-[800px] mx-auto text-justify">
+          <div className="mt-3 max-w-[800px] mx-auto text-justify text-[20px]">
             The organisation has been contributing to the social and educational
             development, counselling and mentoring of rural and urban communities
             particularly in the secondary schools and sanitary education,

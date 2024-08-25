@@ -38,10 +38,10 @@ const Causes = () => {
         </div>
       </div>
       <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div className="w-full causes-card min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+        <div className="w-full causes-card min-h-[624px] rounded-xl flex flex-col p-5 text-white">
           <div className="z-10 flex flex-col justify-between">
             <div>
-              <h3 className="font-bold text-[28px]">
+              <h3 className="font-bold text-[28px] mt-5">
                 Rags To Riches (R2R) 2021 Graduation
               </h3>
               <div className="mt-3 text-justify">
@@ -67,10 +67,10 @@ const Causes = () => {
             </div>
           </div>
         </div>
-        <div className="w-full causes-card-1 min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+        <div className="w-full causes-card-1 min-h-[624px] rounded-xl flex flex-col p-5 text-white">
           <div className="z-10 h-2/3 flex flex-col justify-between">
             <div>
-              <h3 className="font-bold text-[28px]">Education</h3>
+              <h3 className="font-bold text-[28px] mt-5">Education </h3> 
               <div className="mt-3  text-justify">
                 One of the main focuses of BMCCI is on education. The initiative
                 aims to improve access to quality education for young minds from
@@ -88,10 +88,10 @@ const Causes = () => {
             </div>
           </div>
         </div>
-        <div className="w-full causes-card-2 min-h-[624px] rounded-xl flex flex-col justify-center items-center p-5 text-white">
+        <div className="w-full causes-card-2 min-h-[624px] rounded-xl flex flex-col p-5 text-white">
           <div className="z-10 h-2/3 flex flex-col justify-between">
             <div>
-              <h3 className="font-bold text-[28px]">
+              <h3 className="font-bold text-[28px] mt-5">
                 Financial Literacy campaigns
               </h3>
               <div className="mt-3 text-justify">

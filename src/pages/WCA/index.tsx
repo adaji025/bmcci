@@ -24,7 +24,7 @@ const WCA = () => {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Navbar pageName={"wca"} />
-      <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center">
+      <div className="home-banner min-h-[70vh] md:min-h-screen flex items-center banner-wca">
         <div className="app-width z-10 mt-[60px]">
           <div
             className="max-w-[1000px] px-5 lg:px-12 mx-auto text-white z-10"

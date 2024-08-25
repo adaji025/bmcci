@@ -10,12 +10,12 @@ const Mission = () => {
             Creating Conducive Learning Spaces for Marginalized Communities
           </h2>
         </div>
-        <div className="mt-3">
+        <div className="mt-3  text-[18px]">
           Our primary targets are secondary school students, young people/youth
           and women. This is due to the fact that these groups of people are the
           most vulnerable members of the society
         </div>
-        <ul className="mt-5 list-disc ml-5 grid gap-3">
+        <ul className="mt-5 list-disc ml-5 grid gap-3 text-[18px]">
           <li>Education</li>
           <li>Poverty alleviation and self sufficiency</li>
           <li>Morals and Ethical values</li>
@@ -35,13 +35,13 @@ const Mission = () => {
             We aim to prevent and eradicate poverty from its root in Nigeria, particularly in Northern Nigeria.
           </h2>
         </div>
-        <div className="mt-3">
+        <div className="mt-3 text-[18px]">
           Beyond Mentors Community Care Initiative (BMCCI) is a unique
           Non-Governmental, Non-political, human development organization which
           was conceived out of the need to address and prevent poverty from the
           cradle in Nigeria, particularly in the North.
         </div>
-        <div className="mt-3">
+        <div className="mt-3 text-[18px]">
           Activating financial literacy, leadership, entrepreneurship skills and
           patriotism in every Northern Nigerian child is the ultimate vision of
           the team.

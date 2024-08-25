@@ -8,10 +8,16 @@ body {
 }
 
 .home-banner {
-  background: url(./assets/others/general.jpg);
+  background: url(./assets/bmcci-banner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.banner-wca {
+  background: url(./assets/bmcci-gallery-5.jpeg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 .home-banner::before {
   content: "";
@@ -43,21 +49,21 @@ body {
 }
 
 .causes-card {
-  background: url(./assets/png/riches.png);
+  background: url(./assets/bmcci-gallery-8.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .causes-card-1 {
-  background: url(./assets/png/dignity.png);
+  background: url(./assets/bmcci-gallery-6.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .causes-card-2 {
-  background: url(./assets/png/emp.png);
+  background: url(./assets/bmcci-gallery-2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,7 +80,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
   border-radius: 12px;
 }
