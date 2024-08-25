@@ -9,6 +9,7 @@ import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
 import Gallery from "./components/Gallery";
 import { Helmet } from "react-helmet";
+import EventPopup from "./components/EventPopup";
 // import Phylosophy from "./components/Phylosophy";
 
 const WCA = () => {
@@ -235,6 +236,8 @@ const WCA = () => {
       <Footer
         data={{ email: "admin.wca@sigroupint.org", phone: "+234 912 097 9281" }}
       />
+      {/* Event Pop-up */}
+      <EventPopup />
     </Fragment>
   );
 };
