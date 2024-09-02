@@ -11,6 +11,13 @@ import { Fragment, useEffect } from "react";
 import Aos from "aos";
 import Slider from "react-slick";
 
+
+  // {
+  //   name: "Machief Ayuba Mallo",
+  //   image: Mallo,
+  //   title: "Director of Programs",
+  // },
+
 const data = [
   {
     name: "Khadijah Abdullahi Iya",
@@ -21,11 +28,6 @@ const data = [
     name: "Dr. Maimoona Salim",
     image: Salim,
     title: "Executive Director",
-  },
-  {
-    name: "Machief Ayuba Mallo",
-    image: Mallo,
-    title: "Director of Programs",
   },
   {
     name: "Dr. Rafiu Aderemi",

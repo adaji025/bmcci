@@ -42,7 +42,7 @@ const WCA = () => {
         data-aos="fade-up"
       >
         <div className="flex-1">
-          <div className="bg-[#92CD0033]/20 px-2 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-2 py-3 rounded w-max text-2xl text-[#2C6700] font-medium">
             About WCA
           </div>
           <h2 className="font-bold text-[32px] lg:text-[40px]">
@@ -75,7 +75,7 @@ const WCA = () => {
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
             Philosophy
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
@@ -99,7 +99,7 @@ const WCA = () => {
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
             Principles
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
@@ -134,7 +134,7 @@ const WCA = () => {
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
             Core Beliefs
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
@@ -158,7 +158,7 @@ const WCA = () => {
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
             Impact
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
@@ -222,7 +222,7 @@ const WCA = () => {
 
       <div className="mt-44 app-width">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-xs text-[#2C6700] font-medium">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
             The Board
           </div>
           <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">

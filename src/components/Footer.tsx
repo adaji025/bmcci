@@ -58,6 +58,7 @@ const Footer = (input?: any) => {
           <h4 className="font-bold">More</h4>
           <div className="grid gap-3 font-medium text-[#D0DAF5] mt-5">
             <div>Projects</div>
+            <div>Founder's Day Report</div>
             <div>Events</div>
             <div>Donate</div>
             <div>Annual Report</div>
@@ -98,7 +99,7 @@ const Footer = (input?: any) => {
         </div>
 
         <div>
-          <h4 className="font-bold">Join Us</h4>
+          <h4 className="font-bold">Contact Us</h4>
           <div className="grid gap-3 font-medium text-[#D0DAF5] mt-5">
             <div className="flex gap-2 items-center">
               <IoMailOutline />

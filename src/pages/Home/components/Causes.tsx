@@ -42,18 +42,19 @@ const Causes = () => {
           <div className="z-10 flex flex-col justify-between">
             <div>
               <h3 className="font-bold text-[28px] mt-5">
-                Rags To Riches (R2R) 2021 Graduation
+                Rags To Riches (R2R) 2021 Inauguration
               </h3>
               <div className="mt-3 text-justify">
                 This serves as a platform for members to develop essential life
                 skills and make informed choices for their futures. The R2R club
-                focuses on several key areas, including leadership skills,
+                focuses on... 
+                {/* <span>several key areas, including leadership skills,
                 entrepreneurship, morals, ethical values, and career paths.
                 Through educational sessions and interactive workshops, club
                 members are equipped with the knowledge and tools necessary to
                 become future leaders and entrepreneurs. They learn about
                 important values and ethical principles that guide their
-                decision-making processes and personal development.
+                decision-making processes and personal development.</span>  */}
               </div>
             </div>
             <div>
@@ -68,20 +69,22 @@ const Causes = () => {
           </div>
         </div>
         <div className="w-full causes-card-1 min-h-[624px] rounded-xl flex flex-col p-5 text-white">
-          <div className="z-10 h-2/3 flex flex-col justify-between">
+          <div className="z-10 h-2/3 flex flex-col ">
             <div>
               <h3 className="font-bold text-[28px] mt-5">Education </h3> 
               <div className="mt-3  text-justify">
                 One of the main focuses of BMCCI is on education. The initiative
-                aims to improve access to quality education for young minds from
+                aims to improve access to...
+                {/* <span>quality education for young minds from
                 a very early age. This includes providing education and training
                 programs, scholarships, and mentorship opportunities. By
                 investing in the education of these individuals, BMCCI believes
                 that they can break the cycle of poverty and contribute to the
-                overall development of their communities.
+                overall development of their communities.</span> */}
               </div>
             </div>
-            <div>
+            <div className="mt-6">
+              <div className="mt-4"></div>
               <Button color="white" className="text-black mt-6">
                 Learn more
               </Button>
@@ -89,16 +92,17 @@ const Causes = () => {
           </div>
         </div>
         <div className="w-full causes-card-2 min-h-[624px] rounded-xl flex flex-col p-5 text-white">
-          <div className="z-10 h-2/3 flex flex-col justify-between">
+          <div className="z-10 h-2/3 flex flex-col ">
             <div>
               <h3 className="font-bold text-[28px] mt-5">
                 Financial Literacy campaigns
               </h3>
               <div className="mt-3 text-justify">
                 Financial Literacy campaigns and zero interest loan for small
-                businesswomen and traders serves as a platform to Drive positive
+                businesswomen and traders serves as a platform to...
+                {/* <span>Drive positive
                 change for women while Creating a sustainable future for
-                families through empowerment and livelihood enhancement.
+                families through empowerment and livelihood enhancement.</span> */}
               </div>
             </div>
             <div>
