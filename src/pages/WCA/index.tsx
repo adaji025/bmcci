@@ -5,11 +5,13 @@ import Navbar from "../../components/Navbar";
 import Advocacy from "../../assets/wca/advocacy.jpg";
 import Approach from "../../assets/wca/approach.webp";
 // import GirlsImage from "../../assets/png/girls.png";
+import { Button } from "@mantine/core";
 import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
 import Gallery from "./components/Gallery";
 import { Helmet } from "react-helmet";
 import EventPopup from "./components/EventPopup";
+import ReadMoreComponent from "../../components/ReadMore";
 // import Phylosophy from "./components/Phylosophy";
 
 const WCA = () => {
@@ -51,19 +53,36 @@ const WCA = () => {
             <span className="text-primary">(BMCCI)</span>
           </h2>
           <div className="mt-3 text-[20px] text-justify">
-            Women Community in Africa (WCA) is the advocacy arm of Beyond
+            {/* <ReadMoreComponent fullText="Women Community in Africa (WCA) is the advocacy arm of Beyond
             Mentors Community Care Initiatives, and a coalition of
             Non-Governmental Organisations(NGOs) and Civil Societal
             Organisations (CSOs) which was established to identify, amplify, and
             address issues which inhibits and affect the sustainable development
             of the African women and children; charting a legacy of solutions on
             the devastating social issues especially Issues of Gender Based
-            Violence (GBV) against women and children.
-          </div>
+            Violence (GBV) against women and children."/> */}
+            <ReadMoreComponent>
+              <span>Women Community in Africa (WCA) is the advocacy arm of Beyond
+            Mentors Community Care Initiatives, and a coalition of
+            Non-Governmental Organisations(NGOs) and Civil Societal
+            Organisations (CSOs) which was established to identify, amplify, and
+            address issues which inhibits and </span> 
+            <span> affect the sustainable development
+            of the African women and children; charting a legacy of solutions on
+            the devastating social issues especially Issues of Gender Based
+            Violence (GBV) against women and children.</span>
+
           <div className="mt-3 text-[20px] text-justify">
             Women Community in Africa (WCA), has recorded lots of great strides
             in identifying and advocating against a variety of societal wrongs
             and proffering solutions.
+          </div>
+            </ReadMoreComponent>
+            
+            {/* <span>affect the sustainable development
+            of the African women and children; charting a legacy of solutions on
+            the devastating social issues especially Issues of Gender Based
+            Violence (GBV) against women and children.</span> */}
           </div>
         </div>
         <div className="flex-1">
@@ -108,17 +127,17 @@ const WCA = () => {
         </div>
         <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
           <div>
-            <span className="text-red-600 font-bold">We Collaborate:</span> We
+            <span className="text-black font-bold">We Collaborate:</span> We
             believe in the power of collective action and partnership to drive
             meaningful change.
           </div>
           <div className="mt-5">
-            <span className="text-green-600 font-bold">We Empower:</span> We
+            <span className="text-black font-bold">We Empower:</span> We
             strive to empower women, girls, and youth to take ownership of their
             lives and communities.
           </div>
           <div className="mt-5">
-            <span className="text-blue-600 font-bold">We are Inclusive:</span>
+            <span className="text-black font-bold">We are Inclusive:</span>
             We embrace the potential of diversity and promote equal
             opportunities for all, regardless of background or circumstances.
           </div>
@@ -126,7 +145,7 @@ const WCA = () => {
             <span className="text-black font-bold">
               We do not compromise Social Justice:
             </span>{" "}
-            as we commit to addressing the root causes of gender-based violence
+            We commit to addressing the root causes of gender-based violence
             and promoting human rights for all.
           </div>
         </div>
@@ -166,16 +185,17 @@ const WCA = () => {
           </h2>
         </div>
         <div className="mt-10 max-w-[840px] mx-auto text-[20px] text-justify">
-          <div>
-            In 2018, we hosted a summit on Child Sexual Abuse in partnership
+          <ReadMoreComponent>
+<span>In 2018, we hosted a summit on Child Sexual Abuse in partnership
             with Girls Not Brides UK, followed by a six-month campaign to end
             child marriage, culminating in a summit on 26 May 2022. Our summits
-            are not mere talking shops; instead, we bring stakeholders together
+            are not mere talking shops;</span> 
+            <span>instead, we bring stakeholders together
             to develop solutions, documented in a communiqué that outlines
             actionable steps to address our findings. This approach has enabled
             us to impact over 25,000 women, children, and young people
             conservatively over the years.
-          </div>
+          </span>
           <div className="mt-5">
             In 2023, we shifted our focus to the boy child. Whilst our coalition
             members, Women Community in Africa, and other Non-Governmental
@@ -195,6 +215,10 @@ const WCA = () => {
             become a vast, resourceful ecosystem that supports the sustainable
             development goals in their communities.
           </div>
+          </ReadMoreComponent>
+
+            
+          
         </div>
 
         <div className="mt-10">
@@ -233,6 +257,32 @@ const WCA = () => {
 
       <BoardMembers />
       <Gallery />
+
+      <div className="mt-44 app-width">
+        <div className="flex flex-col items-center justify-center">
+          <div className="bg-[#92CD0033]/20 px-5 py-3 capitalize rounded w-max text-2xl text-[#2C6700] font-medium">
+            Reports
+          </div>
+          <h2 className="font-bold text-[32px] lg:text-[48px] max-w-[682px] mx-auto text-center text-blue-600">
+            Here are some reports on our past events
+          </h2>
+        </div>
+
+    <div
+      className="max-w-[1100px] mx-auto px-5 lg:px-12 grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-12 items-center justify-center"
+      data-aos="fade-up"
+    >
+      <div className="p-4 bg-gray-200 rounded-xl">
+        <h3 className="text-xl font-extrabold">Founder's Day / Last Ten Days of Ramadan 2024</h3>
+        <p className="text-base mt-4">Here's the report on the Founder's Day / Last Ten Days of Ramadan Feeding Program, a partnership of BMCCI and Tayaba Organisation</p>
+        
+
+              <Button size="md" color="white" className="text-black mt-6">
+                <a href="../../assets/reports/Founders Day report final draft.pdf" target="_blank" rel="noopener noreferrer">Click to download</a>
+              </Button>
+      </div>
+    </div>
+      </div>
       <Footer
         data={{ email: "admin.wca@sigroupint.org", phone: "+234 912 097 9281" }}
       />

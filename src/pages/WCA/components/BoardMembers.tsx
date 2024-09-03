@@ -22,7 +22,7 @@ const data = [
   {
     name: "Dr. Adetoun Dally",
     image: adetoun,
-    title: "Global President General",
+    title: "Global President ",
   },
   {
     name: "Dr. Maimoona Salim",

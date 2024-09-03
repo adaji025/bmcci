@@ -10,6 +10,7 @@ import { Fragment } from "react/jsx-runtime";
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import ReadMoreComponent from "../../components/ReadMore";
 
 const About = () => {
   const location = useLocation();
@@ -34,10 +35,12 @@ const About = () => {
           </div>
           {/* <h2 className="font-bold text-[32px] lg:text-[48px]">About BMCCI</h2> */}
 
+          <ReadMoreComponent>
+
           <div className="mt-3 text-justify text-[20px]">
             Beyond Mentors Community Care Initiatives (BMCCI) is devoted to the
             social, economic and educational development; counselling and
-            mentoring of rural and urban communities in Northern Nigeria..
+            mentoring of rural and urban communities in Northern Nigeria.
           </div>
           <div className="mt-3 text-justify text-[20px]">
             It was first conceived, in 2007, out of the need to address and
@@ -55,6 +58,8 @@ const About = () => {
             exclusive initiative and a first of its kind in the Northern
             Nigeria.
           </div>
+          </ReadMoreComponent>
+
         </div>
         <div className="flex-1">
           <img src={SubsidiaryImage} alt="" className="rounded-xl" />

@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <div className="app-width mt-32">
       <div className="flex justify-center">
-        <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
+        <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-2xl text-[#2C6700] font-medium">
           Pictures
         </div>
       </div>

@@ -1,3 +1,5 @@
+import ReadMoreComponent from "../../../components/ReadMore";
+
 const Mission = () => {
   return (
     <div className="app-width flex flex-col lg:flex-row gap-10 xl:gap-20 justify-between mt-20 overflow-hidden">
@@ -10,6 +12,7 @@ const Mission = () => {
             Creating Conducive Learning Spaces for Marginalized Communities
           </h2>
         </div>
+        <ReadMoreComponent>
         <div className="mt-3  text-[18px]">
           Our primary targets are secondary school students, young people/youth
           and women. This is due to the fact that these groups of people are the
@@ -25,6 +28,7 @@ const Mission = () => {
             community under the aegis of women community in Africa
           </li>
         </ul>
+        </ReadMoreComponent>
       </div>
       <div className="flex-1">
         <div className="bg-[#92CD0033]/20 px-5 py-3 rounded w-max text-xs text-[#2C6700] font-medium">
@@ -35,6 +39,7 @@ const Mission = () => {
             We aim to prevent and eradicate poverty from its root in Nigeria, particularly in Northern Nigeria.
           </h2>
         </div>
+        <ReadMoreComponent>
         <div className="mt-3 text-[18px]">
           Beyond Mentors Community Care Initiative (BMCCI) is a unique
           Non-Governmental, Non-political, human development organization which
@@ -46,6 +51,7 @@ const Mission = () => {
           patriotism in every Northern Nigerian child is the ultimate vision of
           the team.
         </div>
+        </ReadMoreComponent>
       </div>
     </div>
   );
