@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 // import GeneralImage from "../../assets/others/general.jpg";
 import Advocacy from "../../assets/wca/advocacy.jpg";
 import Approach from "../../assets/wca/approach.webp";
-// import GirlsImage from "../../assets/png/girls.png";
+import Report1 from "../../assets/reports/Founders Day report final draft.pdf";
 import { Button } from "@mantine/core";
 import Footer from "../../components/Footer";
 import BoardMembers from "./components/BoardMembers";
@@ -278,7 +278,7 @@ const WCA = () => {
         
 
               <Button size="md" color="white" className="text-black mt-6">
-                <a href="../../assets/reports/Founders Day report final draft.pdf" target="_blank" rel="noopener noreferrer">Click to download</a>
+                <a href={Report1} target="_blank" rel="noopener noreferrer">Click to download</a>
               </Button>
       </div>
     </div>
