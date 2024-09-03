@@ -1,6 +1,6 @@
 import React, { useState, cloneElement } from 'react';
 
-const ReadMoreComponent = ({ children }) => {
+const ReadMoreComponent = ({ children }: any) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Convert children to an array if it's not already one
@@ -21,13 +21,13 @@ const ReadMoreComponent = ({ children }) => {
   return (
     <div>
       {/* Render the first part of the content */}
-      {firstPart.map((child, index) => (
+      {firstPart.map((child: any, index: any) => (
         cloneElement(child, { key: index })
       ))}
       
       {/* Conditionally render the rest of the content */}
       {isExpanded && 
-        secondPart.map((child, index) => (
+        secondPart.map((child: any, index: any) => (
           cloneElement(child, { key: index + cutoffIndex })
         ))
       }
