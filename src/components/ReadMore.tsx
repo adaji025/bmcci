@@ -33,7 +33,7 @@ const ReadMoreComponent = ({ children }) => {
       }
 
       {/* Button to toggle the visibility */}
-      <button onClick={toggleText} className="mt-3" className="text-blue-600 font-bold">
+      <button onClick={toggleText} className="text-blue-600 font-bold">
         {isExpanded ? 'View Less' : 'View More'}
       </button>
     </div>

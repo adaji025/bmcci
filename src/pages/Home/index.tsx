@@ -6,7 +6,7 @@ import AOS from "aos";
 
 import { useEffect } from "react";
 import { Button } from "@mantine/core";
-import Achievement from "./components/Achievement";
+// import Achievement from "./components/Achievement";
 import Causes from "./components/Causes";
 import YoutubeEmbed from "./components/Youtube";
 import Testimonial from "./components/Testimonial";
